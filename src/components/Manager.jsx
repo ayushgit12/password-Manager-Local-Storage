@@ -28,12 +28,12 @@ function Manager() {
           let input = e.target.previousSibling;
           if (input.type === 'password') {
                ref.current.src = hide
-               console.log(ref.current)
+               // console.log(ref.current)
                input.type = 'text'
           } else {
                ref.current.src = show
-               console.log(ref.current)
-               console.log(show)
+               // console.log(ref.current)
+               // console.log(show)
                input.type = 'password'
           }
      }
